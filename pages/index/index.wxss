@@ -1,0 +1,94 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.section{
+  width: 100%;
+  height: 200px;
+}
+.section image{
+  width: 100%;
+  height: 200px;
+}
+.section .flex-wrap{
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e5e7e9;
+}
+.section .flex-wrap:first-child .flexWrapHead{
+  padding: 1rem 0.5rem;
+}
+.section .flexWrapHead{
+    flex-direction:row;
+    padding: 0 0.5rem 1rem;
+}
+.section .flexWrapHead .userHeadImg{
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  -webkit-box-shadow:2px 12px 12px rgba(51,51,112,0.38);  
+  -moz-box-shadow:2px 12px 12px rgba(51,51,112,0.38);  
+  box-shadow:2px 12px 12px rgba(51,51,112,0.38);  
+}
+.section .flexWrapHead .userInfo{
+  display: inline-block;
+  padding-left: 10px;
+}
+.section .flexWrapHead .userInfo .user-name{
+  font-size: 20px;
+  display:block;
+  margin: 6px 0 0 0;
+}
+.section .flexWrapHead .company{
+  font-size: 14px;
+}
+.section .flexWrapHead .other{
+  float: right;
+  text-align: right;
+}
+.section .flexWrapHead .timer{
+  font-size: 14px;
+  display: block;
+  margin: 9px 0 0px 0;
+}
+.section .flexWrapHead .location{
+  font-size: 12px;
+}
+.section .flexWrapBottom{
+  flex-direction:row;
+  padding: 0.8rem 0.5rem 1rem;
+  position: relative;
+}
+.section .flexWrapBottom .centent{
+  margin-right: 15%;
+  font-size: 14px;
+  text-indent: 2em;
+  line-height: 1.7;
+  display: inline-block;
+}
+.icon-more{
+  position: absolute;
+  top: 50%;
+  transform: translate(-120%, -70%);
+  background: url('../../images/icon-more.png') no-repeat;
+  width: 32px;
+  height: 32px;
+}

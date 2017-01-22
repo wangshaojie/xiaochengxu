@@ -1,0 +1,12 @@
+<!--user.wxml-->
+<view class="container">
+   <view>
+     <view class="section__title">
+      <text>{{motto}} {{userinfo.text}}</text>
+    </view>
+    <view class="section__ctn" bindtap="upLoadImg">
+      <image src="{{ userHeadImg }}" mode="aspectFit"></image>
+    </view>
+    
+   </view>
+</view>

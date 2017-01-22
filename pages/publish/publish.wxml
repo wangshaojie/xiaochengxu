@@ -1,0 +1,24 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class="item" bindtap="upLoadImg">
+    <view class="item-bj">
+      <span class="item-bj-icon">
+      </span>
+    </view>
+  </view>
+
+  <view class="flex-wrp flex-row">
+        <view class="flex-item">
+          <image src="../../images/wang.jpg" mode="aspectFill"></image>
+        </view>
+         <view class="flex-item">
+          <image src="../../images/wang.jpg" mode="aspectFill"></image>
+        </view>
+        <view class="flex-item"></view>
+        <view class="flex-item"></view>
+        <view class="flex-item"></view>
+        <view class="flex-item"></view>
+        <view class="flex-item"></view>
+        <view class="flex-item"></view>
+    </view>
+</view>

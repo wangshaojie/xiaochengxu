@@ -1,0 +1,36 @@
+<!--logs.wxml-->
+<!--<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>-->
+
+<view class="container">
+  <text class="error" bindtap="location">
+    账号或密码错误
+  </text>
+  <view class="wrap">
+     <view  class="info">
+    <text>登陆</text>
+  </view >
+
+  <view  class="form">
+    <view  class="thumbnail">
+      <image class="userinfo-avatar" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/hat.svg"></image>
+    </view>
+    <form class="login-form">
+        <view class="section">
+          <input  maxlength="11" placeholder="请输入用户名" id="username" name="username" bindinput="userNameInput"/>
+        </view>
+        <view class="section">
+          <input type="password"  maxlength="6" placeholder="请输入密码" name="password" id="password" bindinput="userPasswordInput"/>
+        </view>
+        <button bindtap="bindViewTap">login</button>
+      </form>
+  </view>
+  </view>
+  </view >

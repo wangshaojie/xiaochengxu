@@ -1,0 +1,48 @@
+/**search.wxss**/
+.item{
+  width: 100%;
+  background-color: #d43d3d;
+  height: 280rpx;
+  padding: 10px 0;
+  border-top: 1px solid #fff;
+  position: relative;
+}
+.item-bj{
+  width: 150rpx;
+  height: 150rpx;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.item-bj-icon{
+  background: url('../../images/icon-addphoto.png') no-repeat;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.flex-row{
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+.flex-row .flex-item{
+  border: 1px solid #d43d3d;
+  width: 24%;
+  height: 200rpx;
+  display: inline-block;
+  letter-spacing: 0;
+  margin: 0 1rpx;
+}
+.flex-row .flex-item:nth-child(4n+1){
+  margin-left: 0;
+}
+.flex-row .flex-item image{
+  height :200rpx;
+  max-width: 100%;
+  display: inline;
+}

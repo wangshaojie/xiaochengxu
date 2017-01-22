@@ -1,0 +1,68 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class="swiper section" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" indicator-active-color="{{indicatorActiveColor}}">
+   <block wx:for="{{imgUrls}}" wx:for-index="index">
+   <navigator url="../logs/logs" hover-class="navigator-hover">
+    <swiper-item bindtap="itemClick" data-id="{{item.id}}" data-name="{{data.name}}">  
+     <image src="{{item.url}}" class="slide-image" mode="aspectFill" />  
+    </swiper-item> 
+    </navigator>  
+   </block>  
+  </swiper> 
+
+  <view class="section">
+    <view class="flex-wrap">
+      <view class="flexWrapHead">
+       <image class="userHeadImg" src="http://img0.imgtn.bdimg.com/it/u=156963840,724585560&fm=21&gp=0.jpg"/>
+       <view class="userInfo">
+          <text class="user-name">AmiKoehler</text>
+          <text class="company txt-color">@dropperidiot</text>
+       </view>
+       <view class="other">
+          <text class="timer">3 minutes ago</text>
+          <text class="location txt-color">in Los Angeles</text>
+       </view>
+      </view>
+      <view class="flexWrapCenter">
+         <image src="http://img0.imgtn.bdimg.com/it/u=156963840,724585560&fm=21&gp=0.jpg" class="slide-image" mode="aspectFill" />
+      </view>
+      <view class="flexWrapBottom">
+        <view class="centent">
+          人世间有百媚千红,唯独你是我情之所钟.人世间有百媚千红,唯独你是我情之所钟.人世间有百媚千红,唯独你是我情之所钟.人世间有百媚千红,唯独你是我情之所钟.
+        </view>
+        <span class="icon-more"></span>
+      </view>
+
+      <view class="tools">
+        <span class="icon-comment"></span>
+        <span class="icon-love"></span>
+      </view>
+    </view>
+
+    <!--第二个列表-->
+    <view class="flex-wrap">
+      <view class="flexWrapHead">
+       <image class="userHeadImg" src="http://img0.imgtn.bdimg.com/it/u=156963840,724585560&fm=21&gp=0.jpg"/>
+       <view class="userInfo">
+          <text class="user-name">AmiKoehler</text>
+          <text class="company txt-color">@dropperidiot</text>
+       </view>
+       <view class="other">
+          <text class="timer">3 minutes ago</text>
+          <text class="location txt-color">in Los Angeles</text>
+       </view>
+      </view>
+      <view class="flexWrapCenter">
+         <image src="http://img0.imgtn.bdimg.com/it/u=156963840,724585560&fm=21&gp=0.jpg" class="slide-image" mode="aspectFill" />
+      </view>
+      <view class="flexWrapBottom">
+        <view class="centent">
+          人世间有百媚千红,唯独你是我情之所钟.人世间有百媚千红,唯独你是我情之所钟.人世间有百媚千红,唯独你是我情之所钟.人世间有百媚千红,唯独你是我情之所钟.
+        </view>
+        <span class="icon-more"></span>
+      </view>
+    </view>
+  </view>
+
+
+</view>

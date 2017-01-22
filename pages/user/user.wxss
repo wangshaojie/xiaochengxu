@@ -1,0 +1,17 @@
+/**index.wxss**/
+.container{
+  margin-top: 2rem;
+}
+.section__title{
+  text-align: center;
+}
+.section__title text{
+  font-size: 50rpx;
+}
+.section__ctn{
+  margin: 1rem 0 2rem 0;
+}
+.section__ctn image{
+  width: 600rpx;
+  height: 600rpx;
+}

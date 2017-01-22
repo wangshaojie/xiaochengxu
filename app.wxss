@@ -1,0 +1,15 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Helvetica;
+}
+/*全局强调字体颜色*/
+.txt-color{
+  color: #d43d3d;
+}

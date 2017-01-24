@@ -32,7 +32,7 @@ Page({
   //   wx.navigateTo({
   //     url: '../user/user'
   //   })
-  // },
+  // }
   
     bindViewTap: function() {
       var that = this
